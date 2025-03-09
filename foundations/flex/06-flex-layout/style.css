@@ -24,3 +24,54 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/*MY SOLUTION*/
+
+body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header, .footer{/*why didn't I comment the work earlier? lol, this is for putting the links left and right*/
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1.5em 0.5em 0;
+  margin: 0;
+}
+
+button{
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.content{/*making search bar and logo center via flex*/
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1em;
+  flex: 1;
+}
+
+.footer{
+  background-color: #eeeeee;
+}
+
+a{
+  text-decoration: none;
+  color: #595959;
+  font-weight: bold;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+
+
