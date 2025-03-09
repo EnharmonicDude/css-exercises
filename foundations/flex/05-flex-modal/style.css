@@ -76,16 +76,34 @@ button.cancel {
 }
 
 .container{
-  flex-shrink: 1;
-  flex-grow: 1;
   margin: 1rem;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 8px;
 }
 
 .header{
   font-weight: 900;
   font-size:larger;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.text{
+  font-weight: 500;
+  margin-bottom: 8px;
+  flex-shrink: 1;
+}
+
+.close-button{
+  margin-left: auto;
+  text-align: center;
+  font-weight: 900;
+  flex-shrink: 8;
+}
+
+.continue, .cancel{
+  margin-right: 1em;
 }
 
 .icon{
