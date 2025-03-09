@@ -12,6 +12,31 @@ img {
   font-weight: 900;
 }
 
+/*MY SOLUTION*/
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 52px;
+}
+
+.plant{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 200px;
+  text-align: center;
+
+}
+
+.title{
+  width: 100%;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
